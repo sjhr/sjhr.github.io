@@ -19,7 +19,7 @@ text-align: center;
    bottom:0px;
    width:100%;
    background:#696969;
-   background-image : url(/images/dark_embroidery.png);
+   background-image : url(/images/dark_embroidery.png); /* Background pattern from Subtle Patterns */
    color: white;
    text-align: center;
    border-top:15px solid grey;
@@ -93,7 +93,7 @@ table {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 18px;
+    font-size: 15px;
     max-width: 700px; 
 }
 
@@ -146,7 +146,6 @@ h1 a:link {
   background-color: transparent;
   text-decoration: none;
 }
-
 
 .navigation a  {
 display : inline;
