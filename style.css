@@ -4,7 +4,6 @@
 /* =Structure
 -------------------------------------------------------------- */
 .header {
-height : 230px;
 background-repeat: repeat;
 background-position: center;
 width: 100%;
@@ -60,6 +59,7 @@ body {
   font-family: Pacifico, Roboto, Arial;
   width: 100%; /* Can be in percentage also. */
   text-align: center;
+  padding: 20px;
   display: table-cell;
   vertical-align: middle;
   font-weight: bolder;
