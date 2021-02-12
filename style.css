@@ -59,7 +59,8 @@ body {
   font-family: Pacifico, Roboto, Arial;
   width: 100%; /* Can be in percentage also. */
   text-align: center;
-  padding: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   display: table-cell;
   vertical-align: middle;
   font-weight: bolder;
