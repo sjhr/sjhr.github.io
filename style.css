@@ -40,8 +40,8 @@ text-align : center;
 width : 100%;
 background-color : #003660;
 border-bottom : 10px solid #9CBEBE;
-padding-top: 10px;
-padding-bottom:10px;
+padding-top: 20px;
+padding-bottom:20px;
 }
 
 /* =Font
@@ -156,7 +156,6 @@ h1 a:link {
 
 .navigation  a  {
 font-size : 17px;
-display: inline-block;
 padding : 10px 10px;
 text-decoration : none;
 color : #ffffff;
