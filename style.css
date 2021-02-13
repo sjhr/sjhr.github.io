@@ -31,7 +31,7 @@ background-color: #005587;
    color: white;
    text-align: center;
    border-top:10px solid #9CBEBE;
-   padding-top: 5≈0px;
+   padding-top: 50px;
    padding-bottom: 20px;
    margin-top: 50px;
 }
@@ -85,6 +85,15 @@ font-size: 20pt;
 border-bottom : 5px solid #047C91;
 padding-bottom : 7px;
 } 
+
+h3 {
+color: gray;
+text-align: left;
+font-family: Roboto, arial, courier;
+font-size: 15pt;
+border-bottom : 1px solid gray;
+padding-bottom : 7px;
+} 
     
 .content img {
 width: 200px;
@@ -107,7 +116,7 @@ table {
 }
 
 
-/* =Font
+/* =Links
 -------------------------------------------------------------- */
     
 a:link {
