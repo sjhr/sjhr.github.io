@@ -171,9 +171,19 @@ display: inline-block;
 padding : 10px 10px;
 text-decoration : none;
 color : #ffffff;
-border-bottom : 0;
-	
+border-bottom : 0;	
 }
+
+.navigation  visited  {
+font-size : 17px;
+display: inline-block;
+padding : 10px 10px;
+text-decoration : none;
+color : #ffffff;
+border-bottom : 0;	
+}
+
+
 .navigation  a:hover  {
 color : #ffffff;
 background-color : #047C91;
