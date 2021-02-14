@@ -123,27 +123,23 @@ a:link {
   color: gray; 
   background-color: transparent; 
   text-decoration: underline;
-  cursor:pointer;
 }
 
 a:visited {
   color: gray;
   background-color: transparent;
-  text-decoration: underline;
-  cursor:pointer;
+  text-decoration: none;
 }
 
 a:hover {
   color: white;
   background-color: #696969;
-  cursor:pointer;
 }
 
 a:active {
   color: gray;
   background-color: transparent;
   text-decoration: underline;
-  cursor:pointer;
 }
     
 
@@ -151,7 +147,6 @@ h1 a:visited {
   color: gray;
   background-color: transparent;
   text-decoration: underline;
-  cursor:pointer;
 }
 
 h1 a:hover {
