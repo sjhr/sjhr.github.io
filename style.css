@@ -12,6 +12,15 @@ text-align: center;
 background-color: #005587;
 	  }
 
+.navigation  {
+text-align : center;
+width : 100%;
+background-color : #003660;
+border-bottom : 10px solid #DCE1E5;
+padding-top: 10px;
+padding-bottom:10px;
+}
+
 .content {
     border: 10px;
     border-spacing: 0px 20px;
@@ -23,6 +32,7 @@ background-color: #005587;
     font-size: 17px;
     max-width: 800px; 
 }
+
 .footer {
    left:0px;
    bottom:0px;
@@ -30,19 +40,10 @@ background-color: #005587;
    background:#003660;
    color: white;
    text-align: center;
-   border-top:10px solid #DCE1E5;
+   border-top: #DCE1E5 10px solid;
    padding-top: 50px;
    padding-bottom: 20px;
    margin-top: 50px;
-}
-
-.navigation  {
-text-align : center;
-width : 100%;
-background-color : #003660;
-border-bottom : 10px solid #DCE1E5;
-padding-top: 10px;
-padding-bottom:10px;
 }
 
 /* =Font
@@ -101,18 +102,6 @@ padding-right: 20px;
 border: 0px solid;
 display: block;
 float: left;
-}
-
-table {
-    border: 10px;
-    border-spacing: 0px 20px;
-    width: 50%;
-    background: white;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 17px;
-    max-width: 700px; 
 }
 
 
