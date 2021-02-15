@@ -1,47 +1,187 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Sam's Homepage</title>
- <link rel="stylesheet" href="style.css"> 
-<link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">  
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-</head>
-<body>
-<div class="holder">
-  <div class="header"><div class="title">Samier</div></div> 
-	
-	<div class="navigation">
-                    <a href="/index.html" title="">Home</a>
-				    <a href="/links.html" title="">Links</a> 
-		            <a href="http://portfolium.com/samier" title="">TESOL Portfolio</a> 
-                </div>
-<div class="content">
-<h2>Profile</h2>
-<img src="/images/profile.png" alt="profile picture" class="profile" />
-<p>Samier, MA in English (TESOL) at San Francisco State University 2021, has served as an English teaching assistant in the US and abroad. He is currently a Japanese instructor at the University of Hawaii at Manoa. He received his MBA and BA in Languages from the University of New Mexico. His research interests include translanguaging and multilingualism, which provided a basis for his capstone in analyzing language policies.</p>
-<p>幼いから世界中の言語や文化に興味を持っていました。 その興味がニューメキシコー大学で外国語を専攻するきっかけでした。 卒業した後、同校大でMBAスクールに入学しました。MBA大学院生として、１年間日本に留学しました。現在サンフランシスコ州立大学英語学科でTESOL (英語を母国語としない人のための教授法)を専門しています。</p>
-<p><strong>使用する言語</strong>：英語、日本語、韓国語</p>
-<p><strong>研究分野：</strong>第二言語習得、応用言語学、外国語教育</p>
-<p><strong>研究キーワード：</strong>multilingualism, 言語政策, English as a Lingua Franca</p>
+@charset "UTF-8";
+/* CSS Document */
 
-<h2>Education</h2>
-<p><strong>MA TESOL - <a href="http://sfsu.edu">San Francisco State University</a></strong></p>
-<ul>
-<li>Capstone Title: 「Comparative Analysis of Japan's English Reform and Taiwan's Bilingual Blueprint」</li>
-<li>Advisor: Dr. Santos</li>
-</ul>
-<p><strong> MBA - <a href="http://mgt.unm.edu">University of New Mexico Anderson School of Management</a></strong></p>
-<ul>
-<li>Study abroad at Waseda University (<a href="https://www.waseda.jp/fcom/wbs/en">Waseda Business School</a> and <a href="https://www.waseda.jp/fcom/gsc/en">Graduate School of Commerce</a>) in Tokyo, Japan</li>
-</ul>
-<p><strong>BA Languages - <a href="http://unm.edu">University of New Mexico</a></strong></p>
-<p>Concentrations in Chinese and Japanese</p>
-</div>
-	<div class="footer">
-			Sam's Homepage<br>
-		Content last updated: Februrary 2021<br><br>
-	</div></div>
-</body>
-</html>
+/* =Structure
+-------------------------------------------------------------- */
+.header {
+background-repeat: repeat;
+background-position: center;
+width: 100%;
+display: table;
+text-align: center;
+background-color: #005587;
+	  }
+
+.navigation  {
+text-align : center;
+width : 100%;
+background-color : #003660;
+border-bottom : 10px solid #DCE1E5;
+padding-top: 10px;
+padding-bottom:10px;
+}
+
+.content {
+    border: 10px;
+    border-spacing: 0px 20px;
+    width: 80%;
+    background: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    max-width: 800px; 
+}
+
+.footer {
+   left:0px;
+   bottom:0px;
+   width:100%;
+   background:#003660;
+   color: white;
+   text-align: center;
+   border-top: #DCE1E5 10px solid;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   margin-top: 50px;
+}
+
+/* =Font
+-------------------------------------------------------------- */
+body {
+  color: #696969;
+  font-family: Aruak, Verdana, sans-serif;  
+     margin: 0;
+
+}
+
+.title {
+  color: white;
+  font-size:75pt;
+  font-family: Pacifico, Helvetica, Courier;
+  width: 100%; /* Can be in percentage also. */
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bolder;
+  text-shadow: 5px 5px 0px #047C91, 10px 10px 0px rgba(0,0,0,0.25);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+   user-select: none;
+   cursor: default;
+}
+    
+h1 {
+  color: grey;
+  text-align: left;
+  font-weight: lighter;
+  font-family: Roboto, arial, courier;
+  font-size: 40pt;
+} 
+    
+h2 {
+color: #047C91;
+text-align: left;
+font-weight: lighter;
+font-family: Roboto, arial, courier;
+font-size: 20pt;
+border-bottom : 5px solid #047C91;
+padding-bottom : 7px;
+} 
+
+h3 {
+color: gray;
+text-align: left;
+font-family: Roboto, arial, courier;
+font-size: 15pt;
+border-bottom : 1px solid gray;
+padding-bottom : 7px;
+} 
+    
+.content img {
+width: 200px;
+border: 0px solid;
+display: block;
+padding-right: 15px;
+float: left;
+}
+
+
+/* =Links
+-------------------------------------------------------------- */
+    
+a:link {
+  color: gray; 
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
+a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: #696969;
+  text-decoration: none;
+}
+    
+h1 a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+    
+h1 a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1 a:hover {
+  color: gray;
+}
+
+.navigation  a  {
+font-size : 17px;
+display: inline-block;
+padding : 10px 10px;
+text-decoration : none;
+color : #ffffff;
+border-bottom : 0;	
+}
+
+.navigation  visited  {
+font-size : 17px;
+display: inline-block;
+padding : 10px 10px;
+text-decoration : none;
+color : #ffffff;
+border-bottom : 0;	
+}
+
+
+.navigation  a:hover  {
+color : #ffffff;
+background-color : #047C91;
+border-radius : 5px;
+}
