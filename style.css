@@ -183,7 +183,7 @@ border-bottom : 0;
 .navigation  a:hover  {
 color : #ffffff;
 background-color : #047C91;
-border-radius : 5px;
+border-radius : 10px;
 }
 
 details > summary {
