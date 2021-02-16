@@ -202,3 +202,8 @@ details > summary {
   cursor: pointer;
   border-radius : 10px;
 }
+
+details  {
+  border-radius : 10px;
+  border: 1px solid grey;
+}
