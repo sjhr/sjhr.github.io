@@ -115,8 +115,8 @@ blockquote {
   background: #DCE1E5;
   border-left: 10px solid #003660;
   padding: 10px;
-  margin-left: 0px;
-  width: 100%;
+  border-radius : 10px;
+  margin-left:0px;
 }
 
 
@@ -195,11 +195,9 @@ border-radius : 10px;
 }
 
 details > summary {
-  padding: 2px 6px;
+  padding: 10px;
   background-color: #DCE1E5;
   border: none;
   cursor: pointer;
-  padding: 10px;
   border-radius : 10px;
-  width: 100%;
 }
