@@ -1,187 +1,69 @@
-@charset "UTF-8";
-/* CSS Document */
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Sam's Homepage</title>
+ <link rel="stylesheet" href="style.css"> 
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="holder">
+  <div class="header"><div class="title">Samier</div></div> 
+	
+	<div class="navigation">
+                    <a href="/index.html" title="">Home</a>
+				    <a href="/links.html" title="">Links</a> 
+		            <a href="/tesol.html" title="">TESOL Portfolio</a> 
+                </div>
+<div class="content">
+<h2>TESOL Portfolio</h2>
+	<p>Below you will find a selection of projects and papers completed in the TESOL graduate program at San Francisco State University. These projects reflect the following PLOs (program learning outcomes):</p>
+<ul>
+<li><strong>PLO #1</strong> Students will critically evaluate scholarship using knowledge of disciplinary history, foundational theories, epistemologies, and scholarly debates in order to participate in professional communities of Composition, TESOL, and Linguistics.</li>
 
-/* =Structure
--------------------------------------------------------------- */
-.header {
-background-repeat: repeat;
-background-position: center;
-width: 100%;
-display: table;
-text-align: center;
-background-color: #005587;
-	  }
+<li><strong>PLO #2</strong> Students will conduct principled inquiry (critical reflection, observation, and/or formal research) using appropriate methods and tools of analysis in order to address disciplinary questions and problems of practice.</li>
 
-.navigation  {
-text-align : center;
-width : 100%;
-background-color : #003660;
-border-bottom : 10px solid #DCE1E5;
-padding-top: 10px;
-padding-bottom:10px;
-}
+<li><strong>PLO #3.</strong> Students will produce effective written and oral presentations that follow professional, disciplinary standards of Composition, TESOL, and Linguistics.</li>
 
-.content {
-    border: 10px;
-    border-spacing: 0px 20px;
-    width: 80%;
-    background: white;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 17px;
-    max-width: 800px; 
-}
+<li><strong>PLO #4.</strong> Students will apply pedagogical knowledge and skills to the teaching of language, literacy, or linguistics.</li>
+	</ul>
 
-.footer {
-   left:0px;
-   bottom:0px;
-   width:100%;
-   background:#003660;
-   color: white;
-   text-align: center;
-   border-top: #DCE1E5 10px solid;
-   padding-top: 50px;
-   padding-bottom: 20px;
-   margin-top: 50px;
-}
+※ <i>Note: Not all program projects/assignments are included here.</i>
 
-/* =Font
--------------------------------------------------------------- */
-body {
-  color: #696969;
-  font-family: Aruak, Verdana, sans-serif;  
-     margin: 0;
+	     <h3>Translanguaging Literature Review <a href="http://">[Link]</a></h3>
+<ul>
+	<li><strong>Course</strong>: Introduction to Graduate Study of Composition, Linguistics, and TESOL</li>
+	<li><strong>PLO</strong>: #1</li>
+	<li><strong>Description</strong>: This is a literature review based on Translanguaging research up until 2019.</li>
+</ul>
+	
+	<h3>Digital Literacy Workshop <a href="http://">[Link]</a></h3>
+<ul>
+	<li><strong>Course</strong>: Assessment and Curriculum</li>
+	<li><strong>PLO</strong>: #3, #4</li>
+	<li><strong>Description</strong>: My group and I had opportunity create curriculum materials and assessment procedures for an authentic teaching context (<a href="http://mujeresunidas.net/about/mission/">Mujere  Unidas y Activas</a>) as well as to explore issues course design and assessment. We are able to present the materials to the program coordinator where they have incorporated our materials into classes.</li>
+</ul>
 
-}
+	<h3>Liquid Syllabus TOEFL Prep Course Liquid Syllabus <a href="http://toeflprep20.wordpress.com">[Link]</a></h3>
+<ul>
+	<li><strong>Course</strong>: TESOL Reading and Writing Skills</li>
+	<li><strong>PLO</strong>: #4</li>
+	<li><strong>Description</strong>: For this project, my group members and I designed a reading/writing course. I had a chance to create a "<a href="https://brocansky.com/2020/06/humanizing-pre-course-contact-with-a-liquid-syllabus.html">liquid syllabus</a>" for a TOEFL prep class the focused primarily on reading and writing skills.</li>
+</ul>
 
-.title {
-  color: white;
-  font-size:75pt;
-  font-family: Pacifico, Helvetica, Courier;
-  width: 100%; /* Can be in percentage also. */
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  display: table-cell;
-  vertical-align: middle;
-  font-weight: bolder;
-  text-shadow: 5px 5px 0px #047C91, 10px 10px 0px rgba(0,0,0,0.25);
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-   user-select: none;
-   cursor: default;
-}
-    
-h1 {
-  color: grey;
-  text-align: left;
-  font-weight: lighter;
-  font-family: Roboto, arial, courier;
-  font-size: 40pt;
-} 
-    
-h2 {
-color: #047C91;
-text-align: left;
-font-weight: lighter;
-font-family: Roboto, arial, courier;
-font-size: 20pt;
-border-bottom : 5px solid #047C91;
-padding-bottom : 7px;
-} 
-
-h3 {
-color: gray;
-text-align: left;
-font-family: Roboto, arial, courier;
-font-size: 15pt;
-border-bottom : 1px solid gray;
-padding-bottom : 7px;
-} 
-    
-.content img {
-width: 200px;
-border: 0px solid;
-display: block;
-padding-right: 15px;
-float: left;
-}
-
-
-/* =Links
--------------------------------------------------------------- */
-    
-a:link {
-  color: gray; 
-  background-color: transparent; 
-  text-decoration: underline;
-}
-
-a:active {
-  color: gray;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: gray;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: white;
-  background-color: #696969;
-  text-decoration: none;
-}
-    
-h1 a:active {
-  color: gray;
-  background-color: transparent;
-  text-decoration: none;
-}
-    
-h1 a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-h1 a:visited {
-  color: gray;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-h1 a:hover {
-  color: gray;
-}
-
-.navigation  a  {
-font-size : 17px;
-display: inline-block;
-padding : 10px 10px;
-text-decoration : none;
-color : #ffffff;
-border-bottom : 0;	
-}
-
-.navigation  visited  {
-font-size : 17px;
-display: inline-block;
-padding : 10px 10px;
-text-decoration : none;
-color : #ffffff;
-border-bottom : 0;	
-}
-
-
-.navigation  a:hover  {
-color : #ffffff;
-background-color : #047C91;
-border-radius : 5px;
-}
+		<h3>Bilingual Beliefs: Attitudes Towards Bilingual Education <a href="">[Link]</a></h3>
+<ul>
+	<li><strong>Course</strong>: Topics in Sociolinguistics</li>
+	<li><strong>PLO</strong>: #2</li>
+	<li><strong>Description</strong>: In this project, a survey was conducted to identify beliefs towards bilingual education in the Bay Area.</li>
+</ul>
+	
+</div>
+	<div class="footer">
+			Sam's Homepage<br>
+		Content last updated: Februrary 2021<br><br>
+	</div></div>
+</body>
+</html>
