@@ -185,3 +185,12 @@ color : #ffffff;
 background-color : #047C91;
 border-radius : 5px;
 }
+
+details > summary {
+  padding: 2px 6px;
+  background-color: #DCE1E5;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius : 10px;
+}
