@@ -4,18 +4,16 @@
 /* =Structure
 -------------------------------------------------------------- */
 
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+.container{
+  background: #003660;
+  min-height: 100%;
 }
 
-.holder{
-min-height:100%;
-position:relative;
+.holder{    
+	background: #ffffff;
 }
-
 
 .header {
 background-repeat: repeat;
@@ -36,7 +34,7 @@ padding-bottom:10px;
 }
 
 .content {
-    border: 10px;
+	border: 10px;
     border-spacing: 0px 20px;
     width: 80%;
     background: white;
@@ -45,8 +43,6 @@ padding-bottom:10px;
     margin-right: auto;
     font-size: 17px;
     max-width: 800px; 
-	padding-bottom: 200px;
-
 }
 
 .footer {
@@ -60,8 +56,6 @@ padding-bottom:10px;
    padding-top: 50px;
    padding-bottom: 20px;
    margin-top: 50px;
-   height: 90px;
-   position: absolute;
 }
 
 /* =Font
