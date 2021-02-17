@@ -165,26 +165,42 @@ a:hover {
   text-decoration: none;
 }
     
-h1 a:active {
-  color: gray;
-  background-color: transparent;
-  text-decoration: none;
-}
-    
-h1 a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-h1 a:visited {
-  color: gray;
-  background-color: transparent;
-  text-decoration: underline;
+a.list   {
+color : #ffffff;
+background-color : #003660;
+border-radius : 10px;
+padding: 10px;
+text-align: center;
+display: block;
+margin: 10px;
+text-decoration: none;
+margin-right: 0;
+margin-left: 0;
 }
 
-h1 a:hover {
-  color: gray;
+.a.list:visited  {
+color : #ffffff;
+background-color : #003660;
+border-radius : 10px;
+padding: 10px;
+text-align: center;
+display: block;
+text-decoration: none;
+margin-right: 0;
+margin-left: 0;
+}
+
+
+a.list:hover  {
+color : #ffffff;
+background-color : #047C91;
+border-radius : 10px;
+padding: 10px;
+text-align: center;
+display: block;
+text-decoration: none;
+margin-right: 0;
+margin-left: 0;
 }
 
 .navigation  a  {
