@@ -165,7 +165,7 @@ a:hover {
   text-decoration: none;
 }
     
-a.list   {
+a.button   {
 color : #ffffff;
 background-color : #003660;
 border-radius : 10px;
@@ -178,7 +178,7 @@ margin-right: 0;
 margin-left: 0;
 }
 
-.a.list:visited  {
+.a.button:visited  {
 color : #ffffff;
 background-color : #003660;
 border-radius : 10px;
@@ -191,7 +191,7 @@ margin-left: 0;
 }
 
 
-a.list:hover  {
+a.button:hover  {
 color : #ffffff;
 background-color : #047C91;
 border-radius : 10px;
