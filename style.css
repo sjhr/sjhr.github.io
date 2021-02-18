@@ -8,7 +8,6 @@ html,body {
 	height: 100%; 
 	margin: 0px; 
 	padding: 0px; 
-	overflow-y: overlay;
  }
 
 .container{
@@ -148,7 +147,7 @@ padding : 10px;
 h5 {
 color: grey;
 text-align: center;
-font-weight: light;
+font-weight: lighter;
 font-family: Roboto, arial, courier;
 font-size: 15pt;
 }
@@ -241,6 +240,11 @@ border-bottom : 0;
 color : #ffffff;
 background-color : #047C91;
 border-radius : 10px;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
 }
 
 details > summary {
