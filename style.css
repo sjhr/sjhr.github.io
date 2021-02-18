@@ -4,7 +4,12 @@
 /* =Structure
 -------------------------------------------------------------- */
 
-html,body { height: 100%; margin: 0px; padding: 0px; }
+html,body { 
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+	overflow-y: overlay;
+ }
 
 .container{
   background: #003660;
@@ -131,6 +136,22 @@ blockquote {
   margin-right:0px;
 }
 
+h4 {
+color: #047C91;
+text-align: center;
+font-weight: lighter;
+font-family: Roboto, arial, courier;
+font-size: 20pt;
+padding : 10px;
+}
+
+h5 {
+color: grey;
+text-align: center;
+font-weight: light;
+font-family: Roboto, arial, courier;
+font-size: 15pt;
+}
 
 /* =Links
 -------------------------------------------------------------- */
