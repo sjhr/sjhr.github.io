@@ -171,13 +171,12 @@ a:active {
 a:visited {
   color: gray;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: white;
-  background-color: #696969;
-  text-decoration: none;
+  color: #047C91;
+  text-decoration: underline;
 }
     
 a.button   {
@@ -241,6 +240,7 @@ border-bottom : 0;
 color : #ffffff;
 background-color : #047C91;
 border-radius : 10px;
+text-decoration: none;
 -webkit-transition: all 500ms ease;
 -moz-transition: all 500ms ease;
 -ms-transition: all 500ms ease;
