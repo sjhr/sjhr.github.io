@@ -126,9 +126,10 @@ padding-bottom : 7px;
 } 
     
 img.profile {
-width: 200px;
-border: 0px solid;
+width: 180px;
+border: 0px solid #DCE1E5;
 display: block;
+border-left: 10px solid #DCE1E5;
 margin-right: 15px;
 float: left;
 border-radius : 10px;
