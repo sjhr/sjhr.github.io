@@ -237,6 +237,15 @@ margin-right: 0;
 margin-left: 0;
 }
 
+.content ul {list-style: none} 
+
+.content ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #DCE1E5; /* Change the color */ 
+  display: inline-block; width: 1em;   
+  margin-left: -1em
+}
+
 .navigation ul {
   list-style-type: none;
   margin: 0;
