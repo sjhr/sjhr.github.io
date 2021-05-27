@@ -237,6 +237,19 @@ margin-right: 0;
 margin-left: 0;
 }
 
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {   
+	display: inline; 
+}
+	
+.navigation li + li:before {content: "|"; 
+}
+
 .navigation  a  {
 font-size : 18px;
 display: inline-block;
