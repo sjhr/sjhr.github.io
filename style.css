@@ -136,12 +136,15 @@ border-radius : 10px;
 }
 
 img.project {
-width: 95%;
-display: block;
+width: 100%;
 border: 10px solid #DCE1E5;
 margin-left: auto;
 margin-right: auto;
 border-radius : 10px;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+ -ms-box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 blockquote {
