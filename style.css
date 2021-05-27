@@ -135,6 +135,15 @@ float: left;
 border-radius : 10px;
 }
 
+img.project {
+width: 95%;
+display: block;
+border: 10px solid #DCE1E5;
+margin-left: auto;
+margin-right: auto;
+border-radius : 10px;
+}
+
 blockquote {
   background: #DCE1E5;
   border-left: 10px solid #047C91;
