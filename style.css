@@ -32,7 +32,7 @@ background-color: #005587;
 text-align : center;
 width : 100%;
 background-color : #003660;
-border-bottom : 0px solid #DCE1E5;
+border-bottom : 5px solid #DCE1E5;
 padding-top: 10px;
 padding-bottom:10px;
 }
@@ -57,7 +57,7 @@ padding-bottom:10px;
    color: white;
    font-size: 16px;
    text-align: center;
-   border-top: #005587 10px solid;
+   border-top: #DCE1E5 5px solid;
    padding-top: 50px;
    padding-bottom: 50px;
    margin-top: 50px;
