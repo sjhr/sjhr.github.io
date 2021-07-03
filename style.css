@@ -39,7 +39,71 @@ padding-bottom:10px;
 
 .content {
     border: 10px;
-    border-spacing: 0px 20px;
+    border-spacing: 0px 20<!DOCTYPE html>
+<html lang="">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Sam's Homepage</title>
+ <link rel="stylesheet" href="style.css"> 
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+<div class="holder">
+  <div class="header"><div class="title">Samier</div></div> 
+	
+	<div class="navigation">
+		<ul>
+  <li><a href="/index.html" title="">Home</a></li>
+  <li><a href="/tesol.html" title="">TESOL</a></li>
+  <li><a href="/language.html" title="">言語学・日本語</a></li>
+  <li><a href="/links.html" title="">Links</a></li>
+  <li><a href="/contact.html" title="">Contact</a> </li>
+        </ul> 
+                </div>
+<div class="content">
+<h2>Links</h2>
+	<h3>Language learning</h3>
+		<ul>
+	      <li><a href="http://jisho.org">Jisho</a> (Japanese ↔ English Dictionary)</li>
+		  <li><a href="http://dic.naver.com">Naver Dictionary</a> (Korean/Japanese/English/Chinese)</li>
+	      <li><a href="http://mykittyland.com/sdjsc_links.htm">Fumiko Tachibana's Useful Links for Studying Japanese</a></li>
+		  <li><a href="https://www3.nhk.or.jp/news/easy/">NHK News Easy</a> (Japanese News in Simple Language)</li>
+		  <li><a href="https://drive.google.com/file/d/18LqRpCG1cjAacVKorPrF7JUnjnVu2VLW/view?usp=sharing">Japanese Counters & Dates by Japan Foundation</a></li>
+		  <li><a href="https://docs.google.com/document/d/17-7hSPIiE6mFzQU5lQgLCznKLglRWKijZB1us5XRtnI/edit?usp=sharing">カタカナの言葉に注意</a></li>
+                   <li><a href="https://web.mit.edu/kakikotoba/index.html">書き言葉レッスン</a></li>
+        </ul>
+	<h3>Teaching/Education</h3>
+	    <ul>
+	      <li><a href="https://brocansky.com/humanizing">Humanizing Your Online Course</a></li>
+	      <li><a href="https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/">Vanderbilt Guide to Writing Diversity Statements</a></li>
+		  <li><a href="https://physicalsciences.ucsd.edu/_files/examples-submitted-diversity-statements.pdf">UCSD Diversity Statement Examples</a></li>
+		  <li><a href="https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/">UCSF Diversity Statement Examples</a></li>
+      </ul>
+	<h3>Website Development</h3>
+	<blockquote>This website was coded and designed from scratch. 当サイトは自分で一からコーディングとデザインされました。 以下のリンクを使用して、Webデザインの道を歩んではじめましょう。</blockquote>
+	    <ul>
+	      <li><a href="https://www.adobe.com/products/dreamweaver.html">Adobe Dreamweaver</a> (Website design software)</li>
+	      <li><a href="https://pages.github.com">Github Pages</a> (Free static website hosting)</li>
+	      <li><a href="http://sites.google.com">Google Sites</a> (Free website builder and host)</li>
+			<li><a href="https://www.w3schools.com">W3Schools Web Tutorials</a></li>
+        </ul>
+	<h3>Linguists and Scholars that Inspire Me</h3>
+	    <ul>
+	      <li><a href="https://nicolerholliday.wordpress.com">Nicole Holiday</a> </li>
+		  <li><a href="https://www.mshimoji.com">下地理則</a> </li>
+		  <li><a href="https://noriyukinishiyama.com">西山教行</a> </li>
+	    </ul>
+</div>
+	<div class="footer">
+			© 2021-<script>document.write(new Date().getFullYear())</script>  Sam's Homepage
+	</div></div>
+	</div>
+</body>
+</html>
+px;
     width: 80%;
     background: white;
     margin-top: 30px;
